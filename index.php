@@ -23,6 +23,7 @@
  */
 
 if (!file_exists('./config.php')) {
+	// change my Miguel 20220404
     header('Location: install.php');
     die;
 }
